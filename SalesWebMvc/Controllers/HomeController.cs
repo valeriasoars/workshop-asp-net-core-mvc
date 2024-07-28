@@ -1,5 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
-using SalesWebMvc.Models;
+using SalesWebMvc.Models.ViewModels;
 using System.Diagnostics;
 
 namespace SalesWebMvc.Controllers
@@ -19,6 +19,7 @@ namespace SalesWebMvc.Controllers
            
             ViewData["Message"] = "this is a message";
             ViewData["Email"] = "email@gmail.com";
+
             return View();
         }
 
