@@ -15,6 +15,10 @@ namespace SalesWebMvc.Controllers
 
         public IActionResult Index()
         {
+
+           
+            ViewData["Message"] = "this is a message";
+            ViewData["Email"] = "email@gmail.com";
             return View();
         }
 
