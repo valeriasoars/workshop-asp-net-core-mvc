@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "SalesWebMvc/1.0.0": {
+        "runtime": {
+          "SalesWebMvc.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SalesWebMvc/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
