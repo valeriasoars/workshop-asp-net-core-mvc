@@ -252,3 +252,5 @@ D:\Projetos\SalesWebMvc\SalesWebMvc\bin\Debug\net8.0\runtimes\win\lib\net7.0\Sys
 D:\Projetos\SalesWebMvc\SalesWebMvc\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
 D:\Projetos\SalesWebMvc\SalesWebMvc\obj\Debug\net8.0\SalesWebMvc.csproj.AssemblyReference.cache
 D:\Projetos\SalesWebMvc\SalesWebMvc\obj\Debug\net8.0\SalesWeb.4E83D57B.Up2Date
+D:\Projetos\SalesWebMvc\SalesWebMvc\bin\Debug\net8.0\MySqlConnector.dll
+D:\Projetos\SalesWebMvc\SalesWebMvc\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll

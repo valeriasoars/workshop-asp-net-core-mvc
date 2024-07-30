@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "TmXSVSfSDTT1pcCAcl0FdfOwzlgldY+x/61B8GHnskh/1nrtw6nQKlNaom+zrZZU4VchmvVQiwt3JCCs/yZCQA==",
+  "dgSpecHash": "iDG9Mbbqg9J3YrFtsTxF0RXSi7e7X/EA+THjL+ForWNT6A/6B2B/QkzLRDEcUEsWPu/HVmqfYOtjhyX2UY4ZeA==",
   "success": true,
   "projectFilePath": "D:\\Projetos\\SalesWebMvc\\SalesWebMvc\\SalesWebMvc.csproj",
   "expectedPackageFiles": [
@@ -114,6 +114,7 @@
     "C:\\Users\\userA\\.nuget\\packages\\microsoft.visualstudio.web.codegenerators.mvc\\8.0.3\\microsoft.visualstudio.web.codegenerators.mvc.8.0.3.nupkg.sha512",
     "C:\\Users\\userA\\.nuget\\packages\\microsoft.win32.systemevents\\7.0.0\\microsoft.win32.systemevents.7.0.0.nupkg.sha512",
     "C:\\Users\\userA\\.nuget\\packages\\mono.texttemplating\\2.3.1\\mono.texttemplating.2.3.1.nupkg.sha512",
+    "C:\\Users\\userA\\.nuget\\packages\\mysqlconnector\\2.3.5\\mysqlconnector.2.3.5.nupkg.sha512",
     "C:\\Users\\userA\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\userA\\.nuget\\packages\\nuget.common\\6.9.1\\nuget.common.6.9.1.nupkg.sha512",
     "C:\\Users\\userA\\.nuget\\packages\\nuget.configuration\\6.9.1\\nuget.configuration.6.9.1.nupkg.sha512",
@@ -124,6 +125,7 @@
     "C:\\Users\\userA\\.nuget\\packages\\nuget.projectmodel\\6.9.1\\nuget.projectmodel.6.9.1.nupkg.sha512",
     "C:\\Users\\userA\\.nuget\\packages\\nuget.protocol\\6.9.1\\nuget.protocol.6.9.1.nupkg.sha512",
     "C:\\Users\\userA\\.nuget\\packages\\nuget.versioning\\6.9.1\\nuget.versioning.6.9.1.nupkg.sha512",
+    "C:\\Users\\userA\\.nuget\\packages\\pomelo.entityframeworkcore.mysql\\8.0.2\\pomelo.entityframeworkcore.mysql.8.0.2.nupkg.sha512",
     "C:\\Users\\userA\\.nuget\\packages\\system.codedom\\5.0.0\\system.codedom.5.0.0.nupkg.sha512",
     "C:\\Users\\userA\\.nuget\\packages\\system.collections.immutable\\7.0.0\\system.collections.immutable.7.0.0.nupkg.sha512",
     "C:\\Users\\userA\\.nuget\\packages\\system.composition\\7.0.0\\system.composition.7.0.0.nupkg.sha512",
