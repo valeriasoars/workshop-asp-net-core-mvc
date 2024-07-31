@@ -1968,6 +1968,7 @@ progress {
   border-color: var(--bs-table-border-color);
 }
 
+
 .table-success {
   --bs-table-color: #000;
   --bs-table-bg: #d0f1dd;
