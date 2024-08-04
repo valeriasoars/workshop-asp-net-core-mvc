@@ -5,6 +5,7 @@
 }
 
 <h2>@ViewData["Title"]</h2>
+<h3>Details seller's @Model.Name</h3>
 
 <div>
     <h4>Seller</h4>
@@ -43,6 +44,6 @@
     </dl>
 </div>
 <div>
-    <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-default">Edit</a>
-    <a asp-action="Index">Back to list</a>
+    <a class="btn btn-primary rounded" asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-default">Edit</a>
+    <a class="btn btn-outline-primary rounded"  asp-action="Index">Back to list</a>
 </div>

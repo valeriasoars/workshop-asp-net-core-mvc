@@ -5,13 +5,14 @@
 }
 
 <h2>@ViewData["Title"]</h2>
+<h4>Seller's list</h4>
 <p>
-    <a asp-action="Create" class="btn btn-dark">Create new</a>
+    <a class="btn btn-outline-primary rounded" asp-action="Create" class="btn btn-dark">Create new</a>
 </p>
 
 <table class="table table-striped table-hover" >
     <thead>
-        <tr class="table-success">
+        <tr class="table-dark">
             <th>
                 @Html.DisplayNameFor(model => model.Name)
             </th>
@@ -27,7 +28,7 @@
             <th>
                 @Html.DisplayNameFor(model => model.BaseSalary)
             </th>
-            <th></th>
+            <th class="d-flex justify-content-end">Actions</th>
 
         </tr>
     </thead>
@@ -47,10 +48,10 @@
                 <td>
                     @Html.DisplayFor(modelItem => item.BaseSalary)
                 </td>
-                <td>
-                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a>
-                    <a asp-action="Details" asp-route-id="@item.Id">Details</a>
-                    <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                <td class="d-flex justify-content-end">
+                    <a class="btn btn-primary rounded m-1" asp-action="Edit" asp-route-id="@item.Id">Edit</a>
+                    <a class="btn btn-info rounded m-1" asp-action="Details" asp-route-id="@item.Id">Details</a>
+                    <a class="btn btn-danger rounded m-1" asp-action="Delete" asp-route-id="@item.Id">Delete</a>
                 </td>
                 
             </tr>
