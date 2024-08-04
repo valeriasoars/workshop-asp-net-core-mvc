@@ -30,14 +30,39 @@ namespace SalesWebMvc.Services
             return await _context.Seller.Include(obj => obj.Department).FirstOrDefaultAsync(obj => obj.Id == id);
         }
 
-        public async Task RemoveAsync(int id)
+        /*public async Task RemoveAsync(int id)
         {
-            var obj = await _context.Seller.FindAsync(id);
-            _context.Seller.Remove(obj);
-            await _context.SaveChangesAsync();
+            try
+            {
+                var obj = await _context.Seller.FindAsync(id);
+                _context.Seller.Remove(obj);
+                await _context.SaveChangesAsync();
+            }
+            catch (DbUpdateException e)
+            {
+                throw new IntegrityException("Can't delete seller because he/she has sales");
+            }
+        }*/
+        public async Task<bool> HasSalesAsync(int sellerId)
+        {
+            return await _context.SalesRecords.AnyAsync(sr => sr.Id == sellerId);
         }
 
-        public async Task UpdateAsync(Seller obj)
+        public async Task RemoveAsync(int id)
+        {
+            bool hasSales = await HasSalesAsync(id);
+            if (hasSales)
+            {
+                throw new IntegrityException("Can't delete seller because he/she has sales");
+            }
+
+            var seller = await _context.Seller.FindAsync(id);
+            _context.Seller.Remove(seller);
+            await _context.SaveChangesAsync();
+        }
+   
+
+    public async Task UpdateAsync(Seller obj)
         {
             bool hasAny = await _context.Seller.AnyAsync(x => x.Id == obj.Id);
             if (!hasAny)
